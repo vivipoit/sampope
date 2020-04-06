@@ -1,24 +1,9 @@
-# README
+# sampope #
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails 6 application for tour operators to organize and monitor their commercial, operational, administrative, and financial processes, routines, and goals.
 
-Things you may want to cover:
+This is a pet project for learning, practicing, and improving.
 
-* Ruby version
+The project includes Brazilian Portuguese blog posts with step-by-step instructions for everything accomplished here. The link to that is https://debugada.blogspot.com/search/label/sampope.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For questions, suggestions, and/or concerns, send an e-mail to vwpoit@gmail.com.
