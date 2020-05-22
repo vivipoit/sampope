@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Subtotal:</strong>
+  <%= @itinerary.subtotal %>
+</p>
+
+<p>
+  <strong>Discount:</strong>
+  <%= @itinerary.discount %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @itinerary.total %>
+</p>
+
+<%= link_to 'Edit', edit_itinerary_path(@itinerary) %> |
+<%= link_to 'Back', itineraries_path %>
