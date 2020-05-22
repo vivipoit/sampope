@@ -69,6 +69,6 @@ class ItinerariesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def itinerary_params
-      params.require(:itinerary).permit(:subtotal, :discount, :total)
+      params.require(:itinerary).permit(:subtotal, :discount)
     end
 end
