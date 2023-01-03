@@ -1,3 +1,5 @@
+# app/controllers/itineraries_controller.rb
+
 class ItinerariesController < ApplicationController
   before_action :set_itinerary, only: [:show, :edit, :update, :destroy]
 
@@ -69,6 +71,6 @@ class ItinerariesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def itinerary_params
-      params.require(:itinerary).permit(:subtotal, :discount)
+      params.require(:itinerary).permit(:subtotal, :discount, :customer_email)
     end
 end

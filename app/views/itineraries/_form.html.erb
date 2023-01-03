@@ -1,3 +1,5 @@
+<!-- app/views/itineraries/_form.html.erb -->
+
 <%= form_with(model: itinerary, local: true) do |form| %>
   <% if itinerary.errors.any? %>
     <div id="error_explanation">
@@ -10,6 +12,11 @@
       </ul>
     </div>
   <% end %>
+
+  <div class="field">
+    <%= form.label :customer_email %>
+    <%= form.text_field :customer_email %>
+  </div>
 
   <div class="field">
     <%= form.label :subtotal %>
